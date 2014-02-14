@@ -47,7 +47,7 @@ class redis (
   $redis_pkg = "${redis_src_dir}/${redis_pkg_name}"
 
   # Install default instance
-  redis::instance { 'redis-default': }
+  #  redis::instance { 'redis-default': }
 
   File {
     owner => root,
